@@ -1,14 +1,14 @@
 import I18nKeys from "./src/locales/keys";
 import type { Configuration } from "./src/types/config";
 
-const YukinaConfig: Configuration = {
-  title: "Yukina",
-  subTitle: "Yukina Template Demo Site",
-  brandTitle: "Yukina",
+const DashuaiConfig: Configuration = {
+  title: "Dashuai",
+  subTitle: "Dashuai's Blog",
+  brandTitle: "Dashuai",
 
-  description: "Demo Site",
+  description: "Welcome to Dashuai's Blog! This is a blog powered by Dashuai, a simple and elegant blog theme for VitePress.",
 
-  site: "https://yukina-blog.vercel.app",
+  site: "https://fds520.com",
 
   locale: "en", // set for website language and date format
 
@@ -27,21 +27,22 @@ const YukinaConfig: Configuration = {
     },
     {
       nameKey: I18nKeys.nav_bar_github,
-      href: "https://github.com/WhitePaper233/yukina",
+      href: "https://github.com/fenghb342",
     },
   ],
 
-  username: "WhitePaper 白芷",
-  sign: "Ad Astra Per Aspera.",
-  avatarUrl: "https://s2.loli.net/2025/01/25/FPpTrQSezM8ivbl.webp",
+  username: "大帅",
+  sign: "everyone has it's own way.",
+  // avatarUrl: "https://s2.loli.net/2025/01/25/FPpTrQSezM8ivbl.webp",
+  avatarUrl: "/img/touxiang.jpg",
   socialLinks: [
     {
       icon: "line-md:github-loop",
-      link: "https://github.com/WhitePaper233",
+      link: "https://github.com/fenghb342",
     },
     {
       icon: "mingcute:bilibili-line",
-      link: "https://space.bilibili.com/22433608",
+      link: "https://space.bilibili.com/496476697",
     },
     {
       icon: "mingcute:netease-music-line",
@@ -75,4 +76,4 @@ const YukinaConfig: Configuration = {
   bannerStyle: "LOOP", // 'loop' | 'static' | 'hidden'
 };
 
-export default YukinaConfig;
+export default DashuaiConfig;

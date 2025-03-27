@@ -1,7 +1,18 @@
 {
-  "name": "yukina",
+  "name": "dashuai",
   "type": "module",
   "version": "0.0.1",
+  "cloudflare": {
+    "label": "Astro Framework Starter",
+    "products": [
+      "Workers"
+    ],
+    "categories": [],
+    "icon_urls": [
+      "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/5ca0ca32-e897-4699-d4c1-6b680512f000/public"
+    ],
+    "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/33bbbf02-eda2-4d3f-b244-c27a280f3900/public"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -9,13 +20,15 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "12.1.0",
     "@astrojs/check": "^0.9.4",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/svelte": "^7.0.3",
     "@astrojs/tailwind": "^5.1.4",
+    "@cloudflare/kv-asset-handler": "^0.4.0",
     "@swup/astro": "^1.5.0",
-    "astro": "^5.3.0",
+    "astro": "^5.5.5",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^1.7.0",
     "lozad": "^1.16.0",
@@ -24,8 +37,11 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3"
   },
+
   "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250204.0",
+    "wrangler": "3.107.3",
     "@iconify-json/cuida": "^1.2.2",
     "@iconify-json/dashicons": "^1.2.1",
     "@iconify-json/heroicons": "^1.2.2",
